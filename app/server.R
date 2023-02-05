@@ -1,22 +1,3 @@
-
-    # library(rjson)
-    # library("devtools")
-    # library(gtools) # if problems calling library, install.packages("gtools", dependencies = T)
-    # library(qdap) # qualitative data analysis package (it masks %>%)
-    # library(tm) # framework for text mining; it loads NLP package
-    # library(SnowballC);   # wordStem is masked from SnowballC
-    # library(stringr)
-    # library(dplyr)
-    # library(tidyr)
-    # library(tidytext)
-    # library(ggplot2)
-    # library(RColorBrewer)
-    # library(wordcloud)
-    # library(reshape2)
-    # library(RedditExtractoR)
-    # library(BBmisc)
-    # library(RTextTools)
-    # library(e1071)
 if(!require("remotes")) install_version("remotes")
 
 
