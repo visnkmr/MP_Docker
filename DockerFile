@@ -1,6 +1,6 @@
 FROM rocker/r-ver:3.3.3
 
-ADD test.tar.gz /usr/local/lib/R/site-library/
+ADD locallibs.tar.gz /usr/local/lib/R/site-library/
 
 RUN echo "local(options(shiny.port = 3838, shiny.host = '0.0.0.0'))" > /usr/local/lib/R/etc/Rprofile.site
 RUN addgroup --system app \
